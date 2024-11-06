@@ -2,14 +2,15 @@ name: VictoriaLogs
 version: "0.0.6"
 slug: victoria_logs
 description: The Simple & Reliable Logs Solution That Scales
-webui: "http://[HOST]:[PORT:9428]/select/vmui"
+#webui: "http://[HOST]:[PORT:9428]/select/vmui"
+webui: "http://[HOST]:[PORT:9428]/"
 ingress: true
 ingress_port: 9428
-#ingress_entry: select/vmui
+ingress_entry: select/vmui
 # host_network: true
 ports:
   9428/tcp: 9428
-  10514/udp: 514
+  10514/udp: 10514
 arch:
   - armhf
   - armv7
