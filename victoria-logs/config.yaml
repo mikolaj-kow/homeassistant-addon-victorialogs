@@ -1,6 +1,6 @@
 name: VictoriaLogs
 version: "0.0.6"
-slug: victoria_logs
+slug: victoria_logs2
 description: The Simple & Reliable Logs Solution That Scales
 #webui: "http://[HOST]:[PORT:9428]/select/vmui"
 webui: "http://[HOST]:[PORT:9428]/"
