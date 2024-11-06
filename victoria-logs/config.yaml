@@ -8,7 +8,8 @@ ingress_port: 9428
 ingress_entry: /select/vmui
 # host_network: true
 ports:
-  9428/tcp: 9428
+  - 9428/tcp: 9428
+  - 10514/udp: 514
 arch:
   - armhf
   - armv7
